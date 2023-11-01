@@ -9,7 +9,7 @@ const HomePage = async () => {
         práctica los conocimientos adquiridos para crear una aplicación web
         sencilla pero funcional que interactúa con la API Reqres.in. Objetivo
         del Proyecto El propósito de este proyecto es explorar y demostrar la
-        capacidad de Next.js para manejar rutas, parámetros, layouts y la
+        capacidad de Next.js para manejar rutas,parame, layouts y la
         visualización de detalles de usuario. A través de la integración con la
         API Reqres.in, he creado una aplicación que permite la recuperación de
         datos de usuarios y su visualización de manera detallada.
