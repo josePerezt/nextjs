@@ -1,4 +1,4 @@
-import Card from "@/app/components/card/Card";
+import Card from "@/src/components/card/Card";
 
 const fectUser = async () => {
   const res = await fetch("https://reqres.in/api/users");
