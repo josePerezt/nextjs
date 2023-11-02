@@ -1,10 +1,15 @@
 const { NextResponse } = require("next/server");
 
-export const GET = () => {
-  return NextResponse.json({ message: "obteniendo datos..." });
+export const GET = async () => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const data = await res.json();
+
+  return NextResponse.json(data);
 };
 
-export const POST = () => {
+export const POST = async (request) => {
+  const data = await request.json();
+  console.log(data);
   return NextResponse.json({ message: "Agregando Datos..." });
 };
 

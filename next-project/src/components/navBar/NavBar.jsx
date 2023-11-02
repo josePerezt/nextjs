@@ -13,6 +13,9 @@ const NavBar = () => {
         <Link href={"/users"}>
           <li className="hover:text-cyan-300">Users</li>
         </Link>
+        <Link href={"/posts"}>
+          <li className="hover:text-cyan-300">Post</li>
+        </Link>
       </ul>
     </div>
   );

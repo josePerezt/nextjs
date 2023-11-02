@@ -29,7 +29,7 @@ const About = () => {
         onClick={handlerClick}
         className="bg-slate-600 p-4 border-2 my-4 rounded w-1/6 text-white font-bold font-mono text-xl"
       >
-        Back
+        Home
       </button>
     </div>
   );
